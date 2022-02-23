@@ -11,7 +11,7 @@ Con questo strumento è possibile generare un qr code che ti permette di utilizz
 
 ## Come si usa?
 
-Questo tool è scritto in Python, per questo motivo devi installarlo prima prima di procedere.
+Questo tool è scritto in Python, per questo motivo devi installarlo prima di procedere.
 
 Successivamente hai bisogno di installare le dipendenze, puoi usare il comando:
 ```bash
@@ -72,7 +72,7 @@ optional arguments:
 
 ## Problemi noti
 
-Se stai utilizzando questo tool ed è da molto tempo che non install l'app PosteID potrebbe capitarti un errore. Per risovere procedi in questo modo:
+Se stai utilizzando questo tool ed è da molto tempo che non installi l'app PosteID potrebbe capitarti un errore. Per risovere procedi in questo modo:
 - Installa PosteID in un telefono
 - Effetua l'accesso
 - L'app ti farà impostare un pin
@@ -81,23 +81,32 @@ Se stai utilizzando questo tool ed è da molto tempo che non install l'app Poste
 
 ## No disco!
 
-Per impostazione predefinita questo tool salva una copia del tuo seed OTP nel file secret.txt. Se non vuoi esegui il comando `extract` con il parametro `--only-output`.
+Per impostazione predefinita questo tool salva una copia del tuo seed OTP nel file secret.txt. Se non vuoi, esegui il comando `extract` con il parametro `--only-output`.
 
 ## Quale applicazione installo?
 
-Probabilmente non vorrai andare utilizzare sempre il tuo computer per generare i codici OTP, per questo motivo spesso si utilizzano delle applicazioni apposite da installare nel telefono.
+Probabilmente non vorrai utilizzare sempre il tuo computer per generare i codici OTP, per questo motivo spesso si utilizzano delle applicazioni apposite da installare nel telefono.
 
 Purtroppo non tutte sono compatibili, ho raccolto le principali.
 
 | App | Android | iOS | Note |
 |:---:|:-------:|:---:|:------:|
-| Auty | ❌ | ❌ | Non supporta i codici di 120 secondi |
+| Authy | ❌ | ❌ | Non supporta i codici di 120 secondi |
 | Google Authenticator | ❌ | ✅ |  Non supporta i codici di 120 secondi |
 | LastPass | ✅ | ✅ | |
 | Yubico | ✅ | | |
 | Aegis | ✅ | ✅ | Testato anche da me |
 
 Fonte: [Laban Sköllermark](https://labanskoller.se/blog/2019/07/11/many-common-mobile-authenticator-apps-accept-qr-codes-for-modes-they-dont-support/)
+
+## Altri provider
+
+Esistono progetti simili anche per gli altri provider SPID?
+- **Aruba**: [ArubaOTP-seed-extractor](https://github.com/andry08/ArubaOTP-seed-extractor)
+
+## Modifiche
+
+Se vuoi proporre qualsiasi modifica o segnalare qualcosa che non va, sentiti libero di aprire una pull request o un issue.
 
 ## Responsabilità
 
