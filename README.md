@@ -79,6 +79,8 @@ Se stai utilizzando questo tool ed è da molto tempo che non installi l'app Post
 - Estrai l'OTP seed con questo tool
 - Se vuoi, disintalla PosteID
 
+A volte potrebbe dare errore appena dopo aver inserito il codice OTP dell'SMS, alcuni utenti hanno risolto entranto nell'area personale di PosteID e rimuovendo i dispositivi precedentemente connessi.
+
 ## No disco!
 
 Per impostazione predefinita questo tool salva una copia del tuo seed OTP nel file secret.txt. Se non vuoi, esegui il comando `extract` con il parametro `--only-output`.
